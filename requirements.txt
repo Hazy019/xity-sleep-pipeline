@@ -1,0 +1,31 @@
+# Xity Sleep Bible — Publishing Pipeline Dependencies
+# Install with: pip install -r requirements.txt
+
+# LLM (Script Generation) — FREE tier via Groq Llama 3
+groq>=0.9.0
+
+# TTS (Audio Generation) — FREE, no API key needed
+edge-tts>=6.1.10
+
+# Video Editing — Requires ImageMagick installed on system
+moviepy==1.0.3
+
+# Google APIs (Drive + YouTube + Analytics)
+google-api-python-client>=2.120.0
+google-auth-httplib2>=0.2.0
+google-auth-oauthlib>=1.2.0
+
+# Resilience — retry decorator
+tenacity>=8.2.3
+
+# Discord notifications
+requests>=2.31.0
+
+# Environment variable loading
+python-dotenv>=1.0.0
+
+# Date / timezone utilities (stdlib zoneinfo needs tzdata on Windows)
+tzdata>=2024.1
+
+# Gemini API
+google-generativeai>=0.8.3
