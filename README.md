@@ -1,3 +1,4 @@
+
 # Stoic Media Factory — Modern Stoic Pipeline
 # https://github.com/Hazy019/modern-stoic-pipeline
 
